@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:masmas_food/screens/1.13%20Via%20Method/1.13_page.dart';
 import 'package:masmas_food/widgets/elevated_button_maker.dart';
 import 'package:masmas_food/widgets/page_makers.dart';
 
-class VerificationCode extends StatelessWidget {
-  const VerificationCode({super.key});
+class ViaMethod extends StatelessWidget {
+  const ViaMethod({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -32,22 +31,29 @@ class VerificationCode extends StatelessWidget {
               child: Column(
                 children: [
                   const PageMaker(
-                    text: 'Enter 4-digit Verification code',
+                    text: 'Forgot password?',
                     mainText:
-                        'Code send to +6282045**** . This code will expired in 01:30',
+                        'Select which contact details should we use to reset your password',
                   ),
                   SizedBox(
-                    height: 38.h,
+                    height: 20.h,
                   ),
                   Placeholder(
                     fallbackWidth: 347.w,
-                    fallbackHeight: 103.h,
+                    fallbackHeight: 105.h,
                   ),
                   SizedBox(
-                    height: 322.h,
+                    height: 20.h,
+                  ),
+                  Placeholder(
+                    fallbackWidth: 347.w,
+                    fallbackHeight: 81.h,
+                  ),
+                  SizedBox(
+                    height: 269.h,
                   ),
                   ElevatedButtonMaker(
-                    pageName: const ViaMethod(),
+                    pageName: const Placeholder(),
                     textInButton: 'Next',
                   ),
                 ],
