@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:masmas_food/screens/1.11%20Signup%20Success%20Notification/1.11_page.dart';
 import 'package:masmas_food/screens/1.9%20Upload%20Preview/1.9_page.dart';
 import 'package:masmas_food/widgets/elevated_button_maker.dart';
 import 'package:masmas_food/widgets/page_makers.dart';
@@ -104,7 +105,7 @@ class SetLocation extends StatelessWidget {
 
                   /// next button maker
                   ElevatedButtonMaker(
-                    pageName: const UploadPreview(),
+                    pageName: const SignUpSuccessNotification(),
                     textInButton: 'Next',
                   ),
                 ],
