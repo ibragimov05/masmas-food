@@ -30,6 +30,8 @@ class SignupProgress extends StatelessWidget {
                 children: [
                   const PageMaker(
                     text: 'Fill in your bio to get started',
+                    mainText:
+                        'This data will be displayed in your account profile for security',
                   ),
                   Placeholder(
                     fallbackWidth: 347.w,

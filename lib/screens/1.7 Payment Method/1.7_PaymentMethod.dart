@@ -28,7 +28,11 @@ class PaymentMethod extends StatelessWidget {
             child: Center(
               child: Column(
                 children: [
-                  const PageMaker(text: 'Payment Method'),
+                  const PageMaker(
+                    text: 'Payment Method',
+                    mainText:
+                        'This data will be displayed in your account profile for security',
+                  ),
                   Placeholder(
                     fallbackWidth: 335.w,
                     fallbackHeight: 256.h,

@@ -3,10 +3,12 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:masmas_food/widgets/arrowBackIco_maker.dart';
 
 class PageMaker extends StatelessWidget {
+  final mainText;
   final String text;
 
   const PageMaker({
     super.key,
+    required this.mainText,
     required this.text,
   });
 
@@ -43,7 +45,7 @@ class PageMaker extends StatelessWidget {
               width: 247.w,
               height: 44.h,
               child: Text(
-                'This data will be displayed in your account profile for security',
+                mainText,
                 style: TextStyle(
                   fontFamily: 'OpenSans',
                   fontWeight: FontWeight.w400,

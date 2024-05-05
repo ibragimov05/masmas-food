@@ -32,7 +32,11 @@ class UploadPreview extends StatelessWidget {
             child: Center(
               child: Column(
                 children: [
-                  const PageMaker(text: 'Upload Your Photo Profile'),
+                  const PageMaker(
+                    text: 'Upload Your Photo Profile',
+                    mainText:
+                        'This data will be displayed in your account profile for security',
+                  ),
                   SizedBox(
                     height: 44.h,
                   ),

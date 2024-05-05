@@ -21,14 +21,18 @@ class UploadPhoto extends StatelessWidget {
       ),
       child: Padding(
         padding:
-        const EdgeInsets.only(left: 25, right: 25, top: 38, bottom: 60),
+            const EdgeInsets.only(left: 25, right: 25, top: 38, bottom: 60),
         child: Scaffold(
           backgroundColor: Colors.transparent,
           body: SingleChildScrollView(
             child: Center(
               child: Column(
                 children: [
-                  const PageMaker(text: 'Upload Your Photo Profile'),
+                  const PageMaker(
+                    text: 'Upload Your Photo Profile',
+                    mainText:
+                        'This data will be displayed in your account profile for security',
+                  ),
                   Placeholder(
                     fallbackWidth: 325.w,
                     fallbackHeight: 129.h,

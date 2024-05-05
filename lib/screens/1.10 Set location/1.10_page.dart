@@ -34,7 +34,11 @@ class SetLocation extends StatelessWidget {
             child: Center(
               child: Column(
                 children: [
-                  const PageMaker(text: 'Set Your Location'),
+                  const PageMaker(
+                    text: 'Set Your Location',
+                    mainText:
+                        'This data will be displayed in your account profile for security',
+                  ),
 
                   /// location setter
                   Container(
