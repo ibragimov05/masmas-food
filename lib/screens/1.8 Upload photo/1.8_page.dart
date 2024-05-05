@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:masmas_food/screens/1.9%20Upload%20Preview/1.9_page.dart';
 import 'package:masmas_food/widgets/elevated_button_maker.dart';
 import 'package:masmas_food/widgets/page_makers.dart';
 
@@ -43,7 +44,7 @@ class UploadPhoto extends StatelessWidget {
                     height: 165.h,
                   ),
                   ElevatedButtonMaker(
-                    pageName: const Placeholder(),
+                    pageName: const UploadPreview(),
                     textInButton: 'Next',
                   ),
                 ],
