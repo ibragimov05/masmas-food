@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:masmas_food/screens/1.5%20Sign%20in/1.5_page.dart';
+import 'package:masmas_food/screens/1.6%20Signup%20progress/1.6_SignupProgress.dart';
 
 void main() {
   runApp(App());
@@ -17,7 +18,7 @@ class App extends StatelessWidget {
       builder: (context, child) {
         return const MaterialApp(
           debugShowCheckedModeBanner: false,
-          home: SignIn(),
+          home: SignupProgress(),
         );
       },
     );

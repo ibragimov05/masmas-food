@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:masmas_food/screens/1.7%20Payment%20Method/1.7_PaymentMethod.dart';
-import 'package:masmas_food/widgets/arrowBackIco_maker.dart';
 import 'package:masmas_food/widgets/elevated_button_maker.dart';
 import 'package:masmas_food/widgets/page_makers.dart';
 
-class SignupProgress extends StatelessWidget {
-  const SignupProgress({super.key});
+class PaymentMethod extends StatelessWidget {
+  const PaymentMethod({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -29,13 +27,13 @@ class SignupProgress extends StatelessWidget {
             child: Center(
               child: Column(
                 children: [
-                  PageMaker(text: 'Fill in your bio to get started'),
+                  PageMaker(text: 'Payment Method'),
                   Placeholder(
-                    fallbackWidth: 347.w,
-                    fallbackHeight: 223.h,
+                    fallbackWidth: 335.w,
+                    fallbackHeight: 256.h,
                   ),
                   SizedBox(
-                    height: 220.h,
+                    height: 219.h,
                   ),
                   ElevatedButtonMaker(
                     pageName: const PaymentMethod(),
