@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:masmas_food/screens/1.7%20Payment%20Method/1.7_PaymentMethod.dart';
-import 'package:masmas_food/widgets/arrowBackIco_maker.dart';
 import 'package:masmas_food/widgets/elevated_button_maker.dart';
 import 'package:masmas_food/widgets/page_makers.dart';
 
@@ -29,7 +28,9 @@ class SignupProgress extends StatelessWidget {
             child: Center(
               child: Column(
                 children: [
-                  PageMaker(text: 'Fill in your bio to get started'),
+                  const PageMaker(
+                    text: 'Fill in your bio to get started',
+                  ),
                   Placeholder(
                     fallbackWidth: 347.w,
                     fallbackHeight: 223.h,

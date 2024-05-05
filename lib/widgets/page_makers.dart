@@ -22,7 +22,6 @@ class PageMaker extends StatelessWidget {
           children: [
             SizedBox(
               width: 264.w,
-              // height: 66.h,
               child: Text(
                 text,
                 style: TextStyle(

@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:masmas_food/screens/1.8%20Upload%20photo/1.8_page.dart';
 import 'package:masmas_food/widgets/elevated_button_maker.dart';
 import 'package:masmas_food/widgets/page_makers.dart';
 
-class PaymentMethod extends StatelessWidget {
-  const PaymentMethod({super.key});
+class UploadPhoto extends StatelessWidget {
+  const UploadPhoto({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -21,23 +20,30 @@ class PaymentMethod extends StatelessWidget {
       ),
       child: Padding(
         padding:
-            const EdgeInsets.only(left: 25, right: 25, top: 38, bottom: 60),
+        const EdgeInsets.only(left: 25, right: 25, top: 38, bottom: 60),
         child: Scaffold(
           backgroundColor: Colors.transparent,
           body: SingleChildScrollView(
             child: Center(
               child: Column(
                 children: [
-                  const PageMaker(text: 'Payment Method'),
+                  const PageMaker(text: 'Upload Your Photo Profile'),
                   Placeholder(
-                    fallbackWidth: 335.w,
-                    fallbackHeight: 256.h,
+                    fallbackWidth: 325.w,
+                    fallbackHeight: 129.h,
                   ),
                   SizedBox(
-                    height: 219.h,
+                    height: 20.h,
+                  ),
+                  Placeholder(
+                    fallbackWidth: 325.w,
+                    fallbackHeight: 129.h,
+                  ),
+                  SizedBox(
+                    height: 165.h,
                   ),
                   ElevatedButtonMaker(
-                    pageName: const UploadPhoto(),
+                    pageName: const Placeholder(),
                     textInButton: 'Next',
                   ),
                 ],
