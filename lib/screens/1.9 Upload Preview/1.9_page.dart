@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:masmas_food/screens/1.10%20Set%20location/1.10_page.dart';
 import 'package:masmas_food/widgets/elevated_button_maker.dart';
 import 'package:masmas_food/widgets/page_makers.dart';
 
@@ -75,7 +76,7 @@ class UploadPreview extends StatelessWidget {
 
                   /// next button maker
                   ElevatedButtonMaker(
-                    pageName: const Placeholder(),
+                    pageName: const SetLocation(),
                     textInButton: 'Next',
                   ),
                 ],
