@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:masmas_food/screens/1.14%20Password/1.14%20page.dart';
 import 'package:masmas_food/widgets/elevated_button_maker.dart';
 import 'package:masmas_food/widgets/page_makers.dart';
 
-class ViaMethod extends StatelessWidget {
-  const ViaMethod({super.key});
+class Password extends StatelessWidget {
+  const Password({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -32,29 +31,29 @@ class ViaMethod extends StatelessWidget {
               child: Column(
                 children: [
                   const PageMaker(
-                    text: 'Forgot password?',
+                    text: 'Reset your password here',
                     mainText:
-                        'Select which contact details should we use to reset your password',
+                    'Select which contact details should we use to reset your password',
                   ),
                   SizedBox(
                     height: 20.h,
                   ),
                   Placeholder(
                     fallbackWidth: 347.w,
-                    fallbackHeight: 105.h,
+                    fallbackHeight: 61.h,
                   ),
                   SizedBox(
                     height: 20.h,
                   ),
                   Placeholder(
                     fallbackWidth: 347.w,
-                    fallbackHeight: 81.h,
+                    fallbackHeight: 61.h,
                   ),
                   SizedBox(
-                    height: 269.h,
+                    height: 290.h,
                   ),
                   ElevatedButtonMaker(
-                    pageName: const Password(),
+                    pageName: const Placeholder(),
                     textInButton: 'Next',
                   ),
                 ],
