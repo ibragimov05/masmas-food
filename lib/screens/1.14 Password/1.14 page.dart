@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:masmas_food/screens/1.15%20Success%20Notification/1.15_page.dart';
 import 'package:masmas_food/widgets/elevated_button_maker.dart';
 import 'package:masmas_food/widgets/page_makers.dart';
 
@@ -53,7 +54,7 @@ class Password extends StatelessWidget {
                     height: 290.h,
                   ),
                   ElevatedButtonMaker(
-                    pageName: const Placeholder(),
+                    pageName: SuccessNotification(),
                     textInButton: 'Next',
                   ),
                 ],
