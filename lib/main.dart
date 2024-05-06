@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:masmas_food/screens/1.2%20Onboarding/1.2_page.dart';
+import 'package:masmas_food/screens/bottom_navigation_bar/bottom_navigation_bar.dart';
 
 void main() {
   runApp(App());
@@ -16,7 +17,7 @@ class App extends StatelessWidget {
       builder: (context, child) {
         return const MaterialApp(
           debugShowCheckedModeBanner: false,
-          home: Onboarding(),
+          home: TabBox(),
         );
       },
     );
